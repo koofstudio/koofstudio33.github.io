@@ -102,7 +102,7 @@ h4,h5,h6 ,p {font-size:18px;color:rgb(229, 225, 217);	font-family: 'Ardeco';
 
 .name{		font-family: 'ofont.ru_StaroUspenskaya Caps ieUcs';
 
-;font-size: 110%;-webkit-text-stroke:1px orange;
+;font-size: 60%;-webkit-text-stroke:1px orange;
 color:rgba(0, 0, 0, 0); text-shadow: 2px 2px 5px rgb(212, 138, 1); }
 .name-img{padding: 12px;}
 

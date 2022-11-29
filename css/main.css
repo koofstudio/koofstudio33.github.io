@@ -83,12 +83,12 @@
 }
 
 @font-face {
-	font-family: 'Ancient Kyiv';
-	src: url('AncientKyiv.eot');
-	src: local('Ancient Kyiv'), local('AncientKyiv'),
-		url('../css/font/AncientKyiv.eot?#iefix') format('embedded-opentype'),
-		url('../css/font/AncientKyiv.woff') format('woff'),
-		url('../css/font/AncientKyiv.ttf') format('truetype');
+	font-family: 'ofont.ru_StaroUspenskaya Caps ieUcs';
+	src: url('ofont.ru_StaroUspenskaya Caps ieUcs.eot');
+	src: local('ofont.ru_StaroUspenskaya Caps ieUcs'),
+		url('../fonts/Slavjanic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ofont.ru_StaroUspenskaya Caps ieUcs.woff') format('woff'),
+		url('../fonts/ofont.ru_StaroUspenskaya Caps ieUcs.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -100,7 +100,9 @@ h1,h2,h3{font-size: 28px;color:orange;}
 h4,h5,h6 ,p {font-size:18px;color:rgb(229, 225, 217);	font-family: 'Ardeco';
 }
 
-.name{	font-family: 'Ancient Kyiv';font-size: 240%;-webkit-text-stroke:1px orange;
+.name{		font-family: 'ofont.ru_StaroUspenskaya Caps ieUcs';
+
+;font-size: 180%;-webkit-text-stroke:1px orange;
 color:rgba(0, 0, 0, 0); text-shadow: 2px 2px 5px rgb(212, 138, 1); }
 .name-img{padding: 12px;}
 
@@ -928,7 +930,7 @@ animated elements
   position: relative;
   left: -4px;
   padding: 0;
-  top: auto;
+  top: -9px;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
@@ -1199,7 +1201,7 @@ aside .widget a:hover {
     /* IE7 */
   }
 
-  .sf-menu a {font-family: 'Ancient Kyiv';font-weight: 900;
+  .sf-menu a {font-family: 'ofont.ru_StaroUspenskaya Caps ieUcs';font-weight: 900;
 
     color: orange;
   }
@@ -1214,11 +1216,11 @@ aside .widget a:hover {
     transition: background .2s;
   }
 
- 
+ #header .container{width: 100%;}
 
   .sf-menu > li > a {
     text-transform: uppercase;letter-spacing: 2px;
-    font-size: 85%; color:  orange;
+    font-size: 65%; color:  orange;
 
     padding: 25px 20px;
   }
